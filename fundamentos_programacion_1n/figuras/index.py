@@ -25,6 +25,6 @@ parallelogram = Figure(Parallelogram, size)
 
 figures = (triangle, square, diamond, parallelogram, rectangle)
 
-for i in figures:
-  print(i.__type__())
-  print(i.__figure__())
+for figure in figures:
+  print(figure.__type__())
+  print(figure.__figure__())
